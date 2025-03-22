@@ -1,0 +1,346 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* *****************NAVBAR***************** */
+
+nav {
+    overflow: hidden;
+    background-color: #d48fff ;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 18px 16px;
+}
+
+#logo {
+    font-weight: bold;
+    float: left;
+}
+
+/* *********************IMAGE PRINCIPAL********************* */
+
+#ImagePrincipale {
+    padding-top: 60px;
+    background: url(media/image-principal.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+
+h1 {
+    text-align: center;
+    color: #d48fff ;
+    font-size: 6em;
+    margin-top: 100px;
+    text-shadow: 1px 3px 2px black;
+}
+
+#premierTrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #d48fff ;
+    text-shadow: 1px 3px 2px black;
+}
+
+#secondTrait {
+    height: 1px;
+    width: 50%;
+    margin: -3px auto;
+    background-color: black;
+    text-shadow: 1px 3px 2px black;
+}
+
+#Trais {
+    height: 1px;
+    width: 15%;
+    margin: -3px auto;
+    background-color: black;
+    text-shadow: 1px 3px 2px black;
+}
+
+#tr {
+    height: 1px;
+    width: 60%;
+    margin: -3px auto;
+    background-color: black;
+    text-shadow: 1px 3px 2px black;
+}
+
+#t {
+    height: 1px;
+    width: 60%;
+    margin: -3px auto;
+    margin-left: 60px;
+    background-color: black;
+    text-shadow: 1px 3px 2px black;
+}
+
+#tra {
+    height: 1px;
+    width: 50%;
+    margin: -3px auto;
+    background-color: black;
+    text-shadow: 1px 3px 2px black;
+}
+
+#traits {
+    height: 1px;
+    width: 15%;
+    margin: -3px auto;
+    background-color: black;
+    text-shadow: 1px 3px 2px black;
+}
+h3 {
+    text-align: center;
+    color: #d48fff ;
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+
+}
+
+#presentation {
+    background-color: #d48fff ;
+    padding: 10px 0px 100px 0;
+}
+
+#textIntro {
+    align-items: center;
+    padding: 0px 20px;
+    text-align: center;
+    width: 1000px; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto; /* Centre horizontalement */
+    font-size: 1.2em;
+    letter-spacing: 1px; /* Définit un espacement de 2 pixels */
+}
+
+
+@media screen and (max-width: 768px) {
+    #textIntro {
+        width: 70%;
+    }
+}
+
+
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+#idprojet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+
+.textecour {
+    padding: 0px 20px;
+    text-align: center;
+    width: 1000px; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto; /* Centre horizontalement */
+    font-size: 1.2em;
+    letter-spacing: 1px; /* Définit un espacement de 2 pixels */
+}
+
+.projet h4 {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesPrestation h4 {
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+
+    /* Bord arrondi avec ombres */
+.imagesPrestation img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 4px rgba(0,0,0,0.7);
+}
+/* Quand on les survol sa grossi */
+.imagesPrestation img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+.projetprestation h4 {
+    text-align: left;
+    font-size: 1.9em;
+    margin: 15px;
+    font-weight: 300;
+
+}
+
+#projetprestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+
+#comprestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 15%;
+}
+
+
+#compprestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1px 10%;
+    margin-right: 1% auto; /* Réduit l’espace à droite */
+}
+
+
+
+.commprestation h5 {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.9em;
+    margin: 15px;
+    margin-left: 90px;
+}
+
+.commprestation h6 {
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.9em;
+    margin: 15px;
+}
+
+.comprestation li {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 1.5em;
+    margin-left: 10%;
+    white-space: nowrap;
+}
+
+.comprestation h6 {
+    text-align: left;
+    font-size: 1.3em;
+    margin: 15px;
+    margin-left: 13%;
+    font-weight: 300;
+    margin-top: -10px;
+}
+
+.compprestation h6{
+    text-align: right;
+    font-size: 1.3em;
+    margin: 15px;
+    margin-right: 13%;
+    font-weight: 300;
+}
+
+footer {
+    background-color: #4e007e;
+    color: #d48fff;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: #d48fff;
+}
+
+button:hover {
+    background-color: #21013f;
+    color: #d48fff;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+}
+
+#troisTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #d48fff;
+    margin: 60px auto;
+}
+
+
+.fin ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+    gap: 20px;
+}
+
+#fin {
+    text-align: center; 
+    padding: 20px 0; 
+    background-color: #4e007e; 
+    color: white;
+}
+#icon {
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copy {
+    width: 50%;
+    text-align: left;
+    color: #d48fff;
+}
